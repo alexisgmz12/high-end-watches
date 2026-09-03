@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Footer renders navigation links and copyright 1`] = `
+<body>
+  <div>
+    <footer
+      class="footer"
+    >
+      <nav
+        aria-label="Footer navigation"
+        class="nav"
+      >
+        <ul
+          class="links"
+        >
+          <li>
+            <a
+              class="link"
+              href="/"
+            >
+              Home
+            </a>
+          </li>
+          <li>
+            <a
+              class="link"
+              href="/about"
+            >
+              About
+            </a>
+          </li>
+          <li>
+            <a
+              class="link"
+              href="/contact"
+            >
+              Contact
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div
+        class="copyright"
+      >
+        © 
+        2026
+         High-End Watches. All rights reserved.
+      </div>
+    </footer>
+  </div>
+</body>
+`;

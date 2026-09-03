@@ -1,0 +1,33 @@
+@use '../styles/_tokens.scss' as *;
+
+.footer {
+  background: $color-neutral;
+  color: #fff;
+  padding: $spacing-md;
+  text-align: center;
+}
+
+.nav {
+  margin-bottom: $spacing-sm;
+}
+
+.links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: $spacing-md;
+  margin: 0;
+  padding: 0;
+}
+
+.link {
+  color: #fff;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.copyright {
+  font-size: 0.875rem;
+}

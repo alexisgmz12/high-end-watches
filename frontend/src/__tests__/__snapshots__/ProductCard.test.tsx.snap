@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`ProductCard renders product information and format price correctly 1`] = `
+<div>
+  <div
+    aria-label="Test Watch"
+    class="card"
+    role="button"
+    tabindex="0"
+  >
+    <div
+      class="imageWrapper"
+    >
+      <img
+        alt="Test Watch"
+        loading="lazy"
+        src="https://example.com/watch.png"
+      />
+    </div>
+    <div
+      class="info"
+    >
+      <h3
+        class="name"
+      >
+        Test Watch
+      </h3>
+      <p
+        class="price"
+      >
+        $199.99
+      </p>
+    </div>
+  </div>
+</div>
+`;

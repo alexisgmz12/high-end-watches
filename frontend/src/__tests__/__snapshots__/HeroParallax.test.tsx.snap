@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`HeroParallax renders hero section with provided props 1`] = `
+<div>
+  <section
+    class="hero"
+    style="background-image: url("https://example.com/hero.png"); transform: translateY(0px);"
+  >
+    <img
+      alt="hero background"
+      loading="lazy"
+      src="https://example.com/hero.png"
+      style="display: none;"
+    />
+    <div
+      class="overlay"
+    />
+    <div
+      class="content"
+    >
+      <h1
+        class="headline"
+      >
+        Welcome
+      </h1>
+      <h2
+        class="subHeadline"
+      >
+        to our site
+      </h2>
+      <button
+        class="cta"
+      >
+        Shop Now
+      </button>
+    </div>
+  </section>
+</div>
+`;

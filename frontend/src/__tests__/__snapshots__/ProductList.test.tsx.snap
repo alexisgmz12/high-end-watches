@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`ProductList renders a list of ProductCard items 1`] = `
+<body>
+  <div>
+    <div
+      class="grid"
+    >
+      <div
+        aria-label="Watch A"
+        class="card"
+        role="button"
+        tabindex="0"
+      >
+        <div
+          class="imageWrapper"
+        >
+          <img
+            alt="Watch A"
+            loading="lazy"
+            src="/a.png"
+          />
+        </div>
+        <div
+          class="info"
+        >
+          <h3
+            class="name"
+          >
+            Watch A
+          </h3>
+          <p
+            class="price"
+          >
+            $100.00
+          </p>
+        </div>
+      </div>
+      <div
+        aria-label="Watch B"
+        class="card"
+        role="button"
+        tabindex="0"
+      >
+        <div
+          class="imageWrapper"
+        >
+          <img
+            alt="Watch B"
+            loading="lazy"
+            src="/b.png"
+          />
+        </div>
+        <div
+          class="info"
+        >
+          <h3
+            class="name"
+          >
+            Watch B
+          </h3>
+          <p
+            class="price"
+          >
+            $200.00
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
